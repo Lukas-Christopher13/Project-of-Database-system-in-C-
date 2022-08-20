@@ -8,7 +8,6 @@ using namespace std;
 
 int main()
 {
-    BancoDeDados bancoDeDados;
     Tratamento tratamento;
 
     while (true)
@@ -39,6 +38,7 @@ int main()
 
         //codio em is
 
+        BancoDeDados bancoDeDados();
 
         //talvez seja nescessario um while
         switch (stoi(operacao))
